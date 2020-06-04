@@ -7,7 +7,7 @@ void pairStar(char input[]){
 	if(strlen(input)<=1){
 		return ;
 	}
-	
+	//recursively
 	pairStar(input+1);
 	if(input[0]==input[1]){
 		for(int i=strlen(input);i>=0;i--){
