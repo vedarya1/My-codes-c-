@@ -1,2 +1,2 @@
-# My-codes-c-
+# My-codes-c++
 coding ninjas practice questions
