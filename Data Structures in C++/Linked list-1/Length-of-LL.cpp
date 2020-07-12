@@ -24,7 +24,7 @@ Node *takeInput(){
 			tail = newNode;
 		}
 		else{
-			tail->next = newNode;
+			tail->next = newNode;//new
 			tail = newNode;
 		}
 		cin>>data;
