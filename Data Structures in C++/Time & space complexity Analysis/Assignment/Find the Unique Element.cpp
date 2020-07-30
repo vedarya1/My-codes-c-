@@ -9,10 +9,6 @@ int FindUnique(int input[],int size){
 	}
 	return output;
 }
-
-
-
-
 int main(){
 	int size;
 	cin>>size;
