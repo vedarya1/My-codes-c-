@@ -54,11 +54,17 @@ class Queue {
 		
 		// read and print
 		T front() {
+			if(isEmpty()) {
+				return 0;
+			}
 			return head->data;
 		}
 		
 		// read and print then delete
 		T dequeue() {
+			if(isEmpty()) {
+				return 0;
+			}
 			T data = head->data;
 			Node<T> *temp = head;
 			head = head->next;
