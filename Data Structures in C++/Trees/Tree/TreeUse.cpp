@@ -89,10 +89,19 @@ void printTreeLW(TreeNode<int>* root) {
 }
 
 int numNodes(TreeNode<int>* root) {
+	
+	// edge case
+	if(root == NULL) {
+		return;
+	}
+	// initial height is 1
 	int ans = 1;
+	// iterate all children and check
 	for(int i = 0; i < root->children.size(); i++) {
+		// current value of output
 		ans += numNodes(root->children[i]);
 	}
+	
 	return ans;
 }
 
