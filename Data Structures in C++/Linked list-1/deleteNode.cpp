@@ -43,7 +43,9 @@ void print(Node *head){
 Node *deleteNode(Node *head , int pos){
 	int count = 0;
 	Node *temp = head;
-	
+	if(pos < 0) {
+		return head;
+	}
 	if(pos == 0){
 		head = head->next;
 		return head;
