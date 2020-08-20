@@ -92,7 +92,7 @@ int numNodes(TreeNode<int>* root) {
 	
 	// edge case
 	if(root == NULL) {
-		return;
+		return 0;
 	}
 	// initial height is 1
 	int ans = 1;
@@ -119,5 +119,5 @@ int main() {
 	int ans  = numNodes(root);
 	cout << ans;
 	
-	// TODO
+	// TODO delete
 }
