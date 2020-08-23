@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-bool checkNumber(int input[],int n,int x){
+bool checkNumber(int input[],int n,int x) {
 	//base case
 	if(n==0){
 		return false;
