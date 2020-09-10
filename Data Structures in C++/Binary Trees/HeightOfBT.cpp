@@ -62,4 +62,5 @@ int height(BinaryTreeNode<int> *root) {
 int main() {
 	BinaryTreeNode<int>* root = takeInputLW();
 	cout << height(root) << endl;
+	
 }
