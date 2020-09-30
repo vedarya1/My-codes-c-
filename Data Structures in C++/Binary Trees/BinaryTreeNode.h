@@ -14,6 +14,7 @@ class  BinaryTreeNode {
 		}
 		
 		// recursive destructor
+	
 		~BinaryTreeNode() {
 			delete left;
 			delete right;
